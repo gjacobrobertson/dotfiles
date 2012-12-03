@@ -42,6 +42,9 @@ syntax on
 set expandtab
 set tabstop=2
 set shiftwidth=2
+filetype plugin indent on
+set autoindent
+set smartindent
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
