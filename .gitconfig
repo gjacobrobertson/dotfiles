@@ -78,3 +78,6 @@
 
 [push]
 	default = simple
+
+[hooks]
+  shipify-server = "http://aqueous-spire-7752.herokuapp.com"
