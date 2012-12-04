@@ -12,6 +12,7 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
+export JAVA_HOME=/Library/Java/Home
 export GROOVY_HOME=/usr/local/Cellar/groovy/2.0.5/libexec/
 
 export CLASSPATH=/Users/jrobertson/Development/qs-product/trunk/Extensibility/dist/lib/ExtensibilityTool.jar
