@@ -1,3 +1,5 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/opt/coreutils/libexec/gnubin
 export PATH=$PATH:/usr/local/share/npm/bin
+export PATH=$PATH:/usr/local/Cellar/ruby/1.9.3-p327/lib/ruby/gems/1.9.1
+export PATH=$PATH:/Users/jrobertson/.gem/ruby/1.9.1
