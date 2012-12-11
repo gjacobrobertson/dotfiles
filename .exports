@@ -12,9 +12,13 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
+#JVM
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/
 export GROOVY_HOME=/usr/local/Cellar/groovy/2.0.5/libexec/
-
 export CLASSPATH=/Users/jrobertson/Development/qs-product/trunk/Extensibility/dist/lib/ExtensibilityTool.jar
 
+#Python
 export PYTHONPATH=/Users/jrobertson/Development/qs-dynamic-foundationexport JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Development
+export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
