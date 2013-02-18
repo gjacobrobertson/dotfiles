@@ -77,8 +77,5 @@
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
 
-[push]
-	default = simple
-
 [hooks]
   shipify-server = "http://aqueous-spire-7752.herokuapp.com"

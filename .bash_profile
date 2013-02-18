@@ -43,3 +43,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 source /usr/local/bin/virtualenvwrapper_lazy.sh
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
