@@ -37,6 +37,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 unsetopt correct_all
-source $HOME/.gvm/bin/gvm-init.sh
-
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
