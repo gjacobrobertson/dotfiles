@@ -62,6 +62,9 @@
   name="Jacob Robertson"
   email="g.jacob.robertson@gmail.com"
 
+[push]
+  default=simple
+
 # Use `origin` as the default remote on the `master` branch in all cases
 [branch "master"]
 	remote = origin
