@@ -98,3 +98,6 @@ endif
 
 "Pathogen
 execute pathogen#infect()
+
+"CtrlP
+:nmap ; :CtrlP<CR>
