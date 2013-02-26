@@ -52,6 +52,7 @@ set list
 set hlsearch
 " Ignore case of searches
 set ignorecase
+set smartcase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
