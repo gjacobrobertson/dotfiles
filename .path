@@ -1,5 +1,0 @@
-export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/opt/coreutils/libexec/gnubin
-export PATH=$PATH:/usr/local/share/npm/bin
-export PATH=$PATH:/Users/jrobertson/Development/adt-bundle-mac-x86_64/sdk/tools
-export PATH=$PATH:/Users/jrobertson/Development/adt-bundle-mac-x86_64/sdk/platform-tools
