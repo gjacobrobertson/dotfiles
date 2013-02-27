@@ -96,11 +96,18 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
+"Buffer mapping
+:nmap <leader>n :bnext<CR>
+:nmap <leader>p :bprev<CR>
+
 "Pathogen
 execute pathogen#infect()
 
 "CtrlP
 :nmap ; :CtrlP<CR>
+
+"NERDTree
+:nmap <leader>e :NERDTreeToggle<CR>
 
 "Powerline
 let g:Powerline_symbols = 'fancy'
