@@ -31,6 +31,7 @@
 	whitespace = fix
 
 [core]
+  excludesfile = /opt/boxen/config/git/gitignore
 	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
   autocrlf = input
@@ -51,6 +52,13 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[hub]
+protocol = https
+
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
