@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync --exclude ".git/" --exclude ".gitmodules" --exclude ".DS_Store" --exclude "script/bootstrap" --exclude "README.md" -av . ~
+rsync --exclude ".git/" --exclude ".gitmodules" --exclude ".gitignore" --exclude ".DS_Store" --exclude "script/bootstrap" --exclude "README.md" -av . ~
