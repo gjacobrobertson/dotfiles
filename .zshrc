@@ -22,6 +22,3 @@ unsetopt correct_all
 #Load aliases and exports
 source $HOME/.aliases
 source $HOME/.exports
-
-#Boxen
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
