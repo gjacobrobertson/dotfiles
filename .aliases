@@ -10,3 +10,6 @@ alias oo="open ."
 
 #pep8
 alias shitbroke="pep8 --ignore=E501,E711"
+
+#hub
+alias git="hub"

@@ -1,5 +1,2 @@
-# Make vim the default editor
 export EDITOR="vim"
-export ANDROID_HOME=/opt/boxen/homebrew/opt/android-sdk
-export GROOVY_HOME=/opt/boxen/homebrew/Cellar/groovy/1.8.6-boxen1/libexec
-export JAVA_HOME=`/usr/libexec/java_home`
+export PATH='/usr/local/bin:$PATH'
