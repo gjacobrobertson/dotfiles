@@ -22,11 +22,7 @@ unsetopt correct_all
 #Load aliases and exports
 source $HOME/.aliases
 source $HOME/.exports
-source $HOME/.openstack_credentials
-source $HOME/.twilio_credentials
-source $HOME/.lnf_credentials
+source $HOME/.credentials
 
 eval "$(rbenv init -)"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
