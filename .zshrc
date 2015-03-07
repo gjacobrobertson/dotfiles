@@ -24,5 +24,7 @@ source $HOME/.aliases
 source $HOME/.exports
 source $HOME/.credentials
 
-eval "$(rbenv init -)"
 
+eval "$(rbenv init -)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
