@@ -103,19 +103,6 @@ endif
 "Pathogen
 execute pathogen#infect()
 
-"CtrlP
-:nmap ; :CtrlP<CR>
-
-"NERDTree
-:nmap <leader>e :NERDTreeToggle<CR>
-
-"Powerline
-let g:Powerline_symbols = 'fancy'
-let g:Powerline_colorscheme = 'solarized256'
-if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
-  set t_Co=256
-endif
-
 "Color Scheme
 set background=dark
 colorscheme solarized
