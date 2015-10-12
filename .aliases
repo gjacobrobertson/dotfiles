@@ -13,3 +13,6 @@ alias shitbroke="pep8 --ignore=E501,E711"
 
 #hub
 alias git="hub"
+
+#git shortcuts
+alias copy-commit="git rev-parse HEAD | pbcopy"
