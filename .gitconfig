@@ -53,7 +53,7 @@
 	untracked = cyan
 
 [credential]
-helper = cache
+helper = osxkeychain
 
 [hub]
 protocol = https
