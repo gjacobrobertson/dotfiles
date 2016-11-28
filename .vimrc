@@ -6,7 +6,7 @@ set background=dark
 colorscheme solarized
 
 "Airline
-let g:airline_powerline_fonts = 1 
+let g:airline_powerline_fonts = 1
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
