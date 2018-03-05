@@ -9,3 +9,9 @@ alias git="hub"
 
 #git shortcuts
 alias copy-commit="git rev-parse HEAD | pbcopy"
+alias git-prune-merged="git branch --merged | grep -v \"^\*\" | xargs git branch -d"
+
+#docker compose
+alias dcd="docker-compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.sync.yml"
+alias dct="docker-compose -f docker-compose.yml -f docker-compose.test.yml -f docker-compose.sync.yml"
+alias dcr="dcd run --rm api"

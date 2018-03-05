@@ -22,9 +22,5 @@ unsetopt correct_all
 #Load aliases and exports
 source $HOME/.aliases
 source $HOME/.exports
-# source $HOME/.credentials
+source $HOME/.credentials
 
-
-# eval "$(rbenv init -)" 2> /dev/null
-# eval "$(pyenv init -)" 2> /dev/null
-# eval "$(pyenv virtualenv-init -)" 2>/dev/null
