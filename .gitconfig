@@ -55,9 +55,6 @@
 [credential]
 helper = osxkeychain
 
-[hub]
-protocol = https
-
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
